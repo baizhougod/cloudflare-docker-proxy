@@ -6,7 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "docker.docker.messiahchat.asia": "https://registry-1.docker.io",
+  "docker.messiahchat.asia": "https://registry-1.docker.io",
   "quay.docker.messiahchat.asia": "https://quay.io",
   "gcr.docker.messiahchat.asia": "https://gcr.io",
   "k8s-gcr.docker.messiahchat.asia": "https://k8s.gcr.io",
