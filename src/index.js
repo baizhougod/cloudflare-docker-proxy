@@ -6,13 +6,13 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "docker.messiahchat.asia.com": "https://registry-1.docker.io",
-  "quay.messiahchat.asia.com": "https://quay.io",
-  "gcr.messiahchat.asia.com": "https://gcr.io",
-  "k8s-gcr.messiahchat.asia.com": "https://k8s.gcr.io",
-  "k8s.messiahchat.asia.com": "https://registry.k8s.io",
-  "ghcr.messiahchat.asia.com": "https://ghcr.io",
-  "cloudsmith.messiahchat.asia.com": "https://docker.cloudsmith.io",
+  "docker.messiahchat.asia": "https://registry-1.docker.io",
+  "quay.messiahchat.asia": "https://quay.io",
+  "gcr.messiahchat.asia": "https://gcr.io",
+  "k8s-gcr.messiahchat.asia": "https://k8s.gcr.io",
+  "k8s.messiahchat.asia": "https://registry.k8s.io",
+  "ghcr.messiahchat.asia": "https://ghcr.io",
+  "cloudsmith.messiahchat.asia": "https://docker.cloudsmith.io",
 };
 
 
