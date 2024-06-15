@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.messiahchat.asia", custom_domain = true },
-  { pattern = "quay.docker.messiahchat.asia", custom_domain = true },
-  { pattern = "gcr.docker.messiahchat.asia", custom_domain = true },
-  { pattern = "k8s-gcr.docker.messiahchat.asia", custom_domain = true },
-  { pattern = "k8s.docker.messiahchat.asia", custom_domain = true },
-  { pattern = "ghcr.docker.messiahchat.asia", custom_domain = true },
-  { pattern = "cloudsmith.docker.messiahchat.asia", custom_domain = true },
+  { pattern = "docker.messiahchat.asia.com", custom_domain = true },
+  { pattern = "quay.messiahchat.asia.com", custom_domain = true },
+  { pattern = "gcr.messiahchat.asia.com", custom_domain = true },
+  { pattern = "k8s-gcr.messiahchat.asia.com", custom_domain = true },
+  { pattern = "k8s.messiahchat.asia.com", custom_domain = true },
+  { pattern = "ghcr.messiahchat.asia.com", custom_domain = true },
+  { pattern = "cloudsmith.messiahchat.asia.com", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,8 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.docker.messiahchat.asia", custom_domain = true }
+route = { pattern = "docker-staging.messiahchat.asia.com", custom_domain = true }
+
 
 [env.staging.vars]
 MODE = "staging"
